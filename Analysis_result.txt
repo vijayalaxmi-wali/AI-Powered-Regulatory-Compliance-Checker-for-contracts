@@ -1,0 +1,51 @@
+:white_check_mark: Clause Extraction Completed
+Document: temp_uploded.pdf
+Type: Standard Contractual Clauses
+Clause extraction done successfully.
+
+React
+
+Reply
+
+8:07
+:bar_chart: Comparison Completed
+Document: temp_uploded.pdf
+Type: Standard Contractual Clauses
+Comparison result: - Missing Clauses:
+    - The new contract document is a "Joint Guide to ASEAN Model Contractual Clauses and EU Standard Contractual Clauses" and not a DPA. Therefore, it does not contain the operational clauses (e.g., specific definitions, processing details, security measures, subprocessors, data breach procedures, international transfer mechanisms, audit rights, and termination clauses) that would typically be found in a Data Processing Addendum (DPA) or Standard Contractual Clauses (SCCs) for actual data transfers.
+    - Specifically, it lacks all clauses from the template document related to:
+        - Controller/Processor identification and signatory information (Template clauses 1., 2.)
+        - Detailed definitions (Template clause SCHEDULE 1, 1.)
+        - Processing of Personal Data specifics (Template clause 2.)
+        - Data Protection Impact Assessment (Template clause 3.)
+        - Rights of Data Subjects operationalization (Template clause 4.)
+        - Limited use of Personal Data & personnel (Template clause 5.)
+        - Subprocessors (Template clause 6., APPENDIX 1, 1., ANNEX III)
+        - Special categories of Personal Data (Template clause 7.)
+        - Security of Personal Data (Template clause 8., APPENDIX 2, A. to W., ANNEX II)
+        - Cooperation with Supervisory Authorities (Template clause 9.)
+        - Personal Data Breach notification and handling (Template clause 10.)
+        - International Transfer of Data mechanisms (Template clause 11., SCHEDULE 2, Clause 1 to Clause 18, ANNEX I)
+        - Governmental queries (Template clause 12.)
+        - Verification and audit rights (Template clause 13.)
+        - Termination specifics (Template clause 14.)
+- Potential Compliance Risks:
+    - **Absence of Binding Contractual Terms:** The primary risk is that the new document is a guide, not a legally binding contract for data processing. It outlines principles and comparisons but does not establish the specific, enforceable obligations required for GDPR compliance in a data transfer scenario.
+    - **Lack of Specific Data Processing Instructions:** No concrete instructions for data processing, purpose limitation, data categories, or data subject rights are present, which are fundamental requirements for a data processing agreement under GDPR Article 28.
+    - **Inadequate Security Measures:** While the guide discusses security principles, it does not implement the specific technical and organizational measures required by GDPR Article 32 and detailed in the template's Appendix 2.
+    - **Unaddressed Subprocessor Management:** The guide discusses sub-processing principles but lacks the binding clauses for subprocessor appointment, contractual flow-down of obligations, and liability, which are critical under GDPR Article 28(2) and (4).
+    - **Non-binding International Transfer Mechanisms:** The document refers to SCCs as a tool but does not constitute the SCCs themselves, nor does it include the necessary Annexes (I, II, III) to make them legally effective for a specific transfer.
+    - **No Enforceable Data Subject Rights:** While the guide compares how data subject rights are handled, it does not create direct, enforceable rights for data subjects against the data importer in the context of a specific data transfer, as required by SCCs.
+    - **Missing Audit and Accountability Provisions:** The guide discusses audit principles but does not establish the specific, enforceable audit rights and accountability mechanisms that a data exporter would need to verify compliance.
+- Risk Score (0-100): 95
+8:07
+- Reasoning: The new document is a "Joint Guide" and explicitly states it "does not constitute legal advice and is provided for general informational purposes only." It is a comparative analysis of two different sets of model clauses (ASEAN MCCs and EU SCCs) and an implementation guide, not a contract for actual data processing or transfer. Therefore, it completely fails to provide the legally binding and specific clauses required for GDPR compliance in a data processing or international data transfer context. Relying on this document as a DPA or SCCs would leave the parties entirely non-compliant with GDPR.
+- Recommendations:
+    1. **Do not use this document as a DPA or SCCs.** This document is a guide and cannot serve as a legally binding contract for data processing or international data transfers.
+    2. **Implement a proper Data Processing Addendum (DPA):** For any processing of personal data by Proofpoint on behalf of the Controller, a separate DPA must be executed. This DPA should incorporate the full text of the EU Standard Contractual Clauses (SCCs) if international transfers from the EU are involved.
+    3. **Complete all SCCs Annexes:** Ensure that Annex I (Parties, Description of Transfer, Competent Supervisory Authority), Annex II (Technical and Organisational Measures), and Annex III (List of Sub-processors) of the SCCs are fully and accurately completed for each specific data transfer.
+    4. **Ensure Enforceable Obligations:** The DPA/SCCs must clearly define the roles (Controller/Processor), specify the subject matter, duration, nature, and purpose of processing, types of personal data, and categories of data subjects.
+    5. **Detail Security Measures:** The DPA/SCCs must include detailed technical and organizational security measures that meet GDPR requirements, similar to those outlined in Appendix 2 of the template.
+    6. **Establish Subprocessor Management:** The DPA/SCCs must include clear provisions for the appointment, authorization, and oversight of subprocessors, ensuring flow-down of data protection obligations.
+    7. **Define Data Subject Rights Procedures:** The DPA/SCCs must outline how data subject requests will be handled, including notification, assistance, and direct enforceability where applicable (e.g., under SCCs).
+    8. **Specify Audit Rights:** The DPA/SCCs must grant the data exporter clear rights to audit the data importer's compliance.
