@@ -47,11 +47,11 @@ def scrape_data(url, name):
 def call_scrape_funtion():
     
     DOCUMENT_MAP= {
-        "DPA": {"json_file":"dpa_sum.json", "link":r"https://www.benchmarkone.com/wp-content/uploads/2018/05/GDPR-Sample-Agreement.pdf"},
-        "JCA": {"json_file":"jca_sum.json", "link":r"https://www.surf.nl/files/2019-11/model-joint-controllership-agreement.pdf"},
-        "C2C":{"json_file":"c2c_sum.json", "link":r"https://www.fcmtravel.com/sites/default/files/2020-03/2-Controller-to-controller-data-privacy-addendum.pdf"},    
-        "SCC":{"json_file":"scc_sum.json", "link":r"https://www.miller-insurance.com/assets/PDF-Downloads/Standard-Contractual-Clauses-SCCs.pdf"},    
-        "subprocessing":{"json_file":"sub_sum.json", "link":r"https://greaterthan.eu/wp-content/uploads/Personal-Data-Sub-Processor-Agreement-2024-01-24.pdf"}    
+        "DPA": {"json_file":"json_files\dpa_sum.json", "link":r"https://www.benchmarkone.com/wp-content/uploads/2018/05/GDPR-Sample-Agreement.pdf"},
+        "JCA": {"json_file":"json_files\jca_sum.json", "link":r"https://www.surf.nl/files/2019-11/model-joint-controllership-agreement.pdf"},
+        "C2C":{"json_file":"json_files\c2c_sum.json", "link":r"https://www.fcmtravel.com/sites/default/files/2020-03/2-Controller-to-controller-data-privacy-addendum.pdf"},    
+        "SCC":{"json_file":"json_files\scc_sum.json", "link":r"https://www.miller-insurance.com/assets/PDF-Downloads/Standard-Contractual-Clauses-SCCs.pdf"},    
+        "subprocessing":{"json_file":"json_files\sub_sum.json", "link":r"https://greaterthan.eu/wp-content/uploads/Personal-Data-Sub-Processor-Agreement-2024-01-24.pdf"}    
     }
     
     temp_agreement= "temp_agreement.pdf"

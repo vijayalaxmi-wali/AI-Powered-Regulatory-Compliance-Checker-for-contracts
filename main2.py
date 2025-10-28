@@ -29,11 +29,11 @@ threading.Thread(target=run_scheduler, daemon=True).start()
 if __name__ == "__main__":
     
     AGREEMENT_JSON_MAP={
-        "Data Processing Agreement":"dpa_sum.json",
-        "Joint Controller Agreement": "jca_sum.json",
-        "Controller-to-Controller Agreement":"c2c_sum.json",
-        "Processor-to-Subprocessor Agreement":"sub_sum.json",
-        "Standard Contractual Clauses": "scc_sum.json"
+        "Data Processing Agreement":"json_files\dpa_sum.json",
+        "Joint Controller Agreement": "json_files\jca_sum.json",
+        "Controller-to-Controller Agreement":"json_files\c2c_sum.json",
+        "Processor-to-Subprocessor Agreement":"json_files\sub_sum.json",
+        "Standard Contractual Clauses": "json_files\scc_sum.json"
     }
     
     st.title("Contract Compliance Checker")
