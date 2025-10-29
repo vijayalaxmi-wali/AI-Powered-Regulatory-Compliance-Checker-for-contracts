@@ -86,6 +86,8 @@ if __name__ == "__main__":
                     "⚠️ Unsupported Document",
                     f"Document: temp_uploded.pdf\nDetected type: {agreement_type} is not supported."
                 )
+                
+                
 
         except Exception as e:
             st.error(f"Error occurred: {e}")
